@@ -2,8 +2,9 @@
 
 /* 
     Paleta de Cores
-    Rosa #F24182
-    Azul #3389ff
+    Rosa #8c203f
+    Rosa Claro #ef5578
+    Rosa Escuro #531322
 */
 
 * {
@@ -37,6 +38,9 @@ section.login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.637);
+
+    transition: width .4s, height .4s;
+    transition-timing-function: ease;
 }
 
 section.login > div.imagem {
