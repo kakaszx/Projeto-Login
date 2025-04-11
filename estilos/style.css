@@ -57,3 +57,11 @@ section.login > div.formulario {
 
 
 }
+
+div.formulario > h1 {
+    margin-bottom: 10px;
+}
+
+div.formulario > p {
+    font-size: .9em;
+}
